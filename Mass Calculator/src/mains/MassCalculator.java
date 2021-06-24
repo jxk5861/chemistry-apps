@@ -1,3 +1,4 @@
+package mains;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Font;
@@ -14,6 +15,9 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.text.BadLocationException;
+
+import table.Element;
+import table.PeriodicTable;
 
 public class MassCalculator extends JFrame {
 	private static final long serialVersionUID = 132342342332L;
@@ -126,9 +130,9 @@ public class MassCalculator extends JFrame {
 							Element el = (Element) var24.next();
 							if (el.getSymbol().equalsIgnoreCase(item.substring(0, j))) {
 								try {
-									mass += el.mass * (double) Integer.parseInt(item.substring(j, item.length()));
+									mass += el.getMass() * (double) Integer.parseInt(item.substring(j, item.length()));
 								} catch (NumberFormatException var16) {
-									mass += el.mass;
+									mass += el.getMass();
 								}
 							}
 						}

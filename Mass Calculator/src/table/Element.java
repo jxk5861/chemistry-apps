@@ -1,5 +1,6 @@
+package table;
 
-class Element {
+public class Element {
 	String name;
 	String symbol;
 	int number;

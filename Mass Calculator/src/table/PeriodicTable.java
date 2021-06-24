@@ -1,3 +1,4 @@
+package table;
 import java.util.ArrayList;
 
 public class PeriodicTable {

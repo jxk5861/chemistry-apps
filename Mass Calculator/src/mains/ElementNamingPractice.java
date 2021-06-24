@@ -1,3 +1,4 @@
+package mains;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -13,6 +14,9 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+
+import table.Element;
+import table.PeriodicTable;
 
 @SuppressWarnings("serial")
 public class ElementNamingPractice extends JFrame {
