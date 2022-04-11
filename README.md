@@ -1,6 +1,8 @@
 # chemistry-apps
 Some simple programs I wrote for my introductory chemistry class. One is to get practice spelling the name of an element given its atomic symbol. The other is a program to calculate the mass of compounds easily and without looking at the periodic table.
 
+Unfortunatly, the source code was lost so I had to decompile the jars to get this code so it is not very readable.
+
 The first program, ElementNamingPractice prompts you with an element atomic number, symbol, and mass and you can type in the name of the element. 
 If the name is correct, it adds one to the current streak in the top right.
 
